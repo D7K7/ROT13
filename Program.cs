@@ -17,7 +17,7 @@ public class Kata
             translation[i] = (char)((((currentChar - baseChar) + 13) % 26) + baseChar);
         }
     }
-    
+    // return the translation
     return translation.ToString();
   }
 }
